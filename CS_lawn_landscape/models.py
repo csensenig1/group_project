@@ -4,8 +4,8 @@ from django.urls import reverse
 
 class RequestContact(models.Model):
     cont_ID = models.CharField(max_length=50)
-    cont_Fname = models.CharField(max_length=200)
-    cont_Lname = models.CharField(max_length=200)
+    cont_first_name = models.CharField(max_length=200)
+    cont_last_name = models.CharField(max_length=200)
     cont_preferredService = models.CharField(max_length=200)
 
 
